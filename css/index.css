@@ -1,0 +1,167 @@
+/*  Location,mail and contact section begins  */
+.section-1{
+    background-color: #337418;
+    color: #f8f8f8;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    display: flex;
+    gap: 750px;
+    padding: 10px;
+    padding-left: 100px;
+}
+.section-1 a{
+    text-decoration: none;
+    color: #f8f8f8;
+    
+}
+.Location-mail-area{
+    display: flex;
+    gap: 50px;
+}
+.section-2{
+    background-color: #337418;
+    color: #f8f8f8;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+   margin-top: 40px;
+    display: flex;
+    gap: 750px;
+    padding: 10px;
+    padding-left: 100px;
+}
+img{
+    width: 120px;
+    height: 120px;
+}
+.nav{
+    padding: 30px;
+    margin-top: 40px;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.nav li{
+    padding: 10px;
+}
+.img_link{
+    margin-top: 20px;
+    margin-right: 340px;
+    display: inline-block;
+}
+.nav a{
+    text-decoration: none;
+    color: #202020;
+}
+.nav a:hover{
+    color: #5DD62C;
+}
+.sub-menu-1{
+    display: none;
+}
+.nav ul li:hover .sub-menu-1{
+    position: absolute;
+    display: block;
+    background-color: #337418;
+    margin-top: 15px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    border-radius: 5px;
+}
+.nav ul li:focus .sub-menu-1{
+    position: absolute;
+    display: block;
+    background-color: #337418;
+    margin-top: 15px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    border-radius: 5px;
+}
+.nav li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+    margin-left: 0px;
+    
+}
+.nav li:focus .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+    margin-left: 0px;
+    
+}
+.nav li:hover .sub-menu-1 ul li{
+    /* width: 150px; */
+    padding: 15px;
+    border-bottom: 1px solid white;
+    text-align: left;
+    background: transparent;
+
+}
+.nav li:focus .sub-menu-1 ul li{
+    /* width: 150px; */
+    padding: 15px;
+    border-bottom: 1px solid white;
+    text-align: left;
+    background: transparent;
+}
+.nav li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+.nav li:hover .sub-menu-1 ul li a{
+    color: white;
+}
+.nav li:hover .sub-menu-1 ul li:hover{
+    background-color: #b9e3a7;
+    
+}
+.nav li:hover .sub-menu-1 ul li:hover a{
+    color: #204e0c;
+}
+
+.sub-sub-menu{
+    display: none;
+}
+.sub-sub-menu a{
+    color: white !important;
+}
+ .another-menu:hover .sub-sub-menu{
+    position: absolute;
+    display: block;
+    background-color: #337418;
+    margin-top: -38x;
+    margin-left: 183px;
+    /* box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); */
+    border-radius: 3px;
+}
+.another-menu:focus .sub-sub-menu{
+    position: absolute;
+    display: block;
+    background-color: #337418;
+    margin-top: -38x;
+    margin-left: 183px;
+    /* box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); */
+    border-radius: 3px;
+}
+.another-menu-2:hover .sub-sub-menu{
+    position: absolute;
+    display: block;
+    background-color: #337418;
+    margin-top: -38x;
+    margin-left: 200px;
+    /* box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); */
+    border-radius: 3px;
+}
+.another-menu-2:focus .sub-sub-menu{
+    position: absolute;
+    display: block;
+    background-color: #337418;
+    margin-top: -38x;
+    margin-left: 200px;
+    /* box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); */
+    border-radius: 3px;
+}
